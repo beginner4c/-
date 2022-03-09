@@ -1,0 +1,40 @@
+명령어 Assignment Statement
+
+프로그램은 명령어(Assignment Statement)와 데이터(data)로 구성
+
+데이터 타입 Data Type
+  -기본형 : 문자형 정수형 실수형
+  -파생형 : 배열 포인터 열거형 함수 포인터 유니온 구조체
+ 
+데이터의 삶 Memory Allocation Scheme
+  고정 Static 자동 Automatic  동적  Dynamic
+
+상수 Constant 
+  프로그램이 실행되는 동안 그 값이 변치 않음 (#define 같은)
+
+변수 Variable
+
+출력 제어 문자 Escape Character 
+  "\" 등을 이용한 문자
+
+함수 호출 Function Call
+
+함수 원형 Proto Type
+  함수 정의 이전에 선언되는 함수의 자료형(Data Type)과 이름
+  
+들여쓰기 Indentation
+
+1Byte = 8Bit
+
+Bit = Binary Digit
+
+unsinged = 부호 없는 정수에 사용
+  0을 포함한 양수만 다루며 음수범위만큼 양수 범위 확장한다
+  
+메모리 주소 Memory address
+
+ASCII(American Standard Code for Information Interchange)
+  정보 교환용 표준 코드로 127개 문자로 구성 - "\"를 통해 사용 가능
+  
+오버플로우 Overflow
+  Data Type보다 큰 수를 집어넣으면 발생

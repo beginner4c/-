@@ -1,0 +1,55 @@
+문자 변수 Character Variable
+
+ESC 문자열 Escape Sequence
+  - 화면에 출력할 수 없는 문자를 표현하는 방법
+
+지수 Exponent
+
+기수 Mantissa
+
+언더 플로우 Underflow
+  - Data Type보다 작은 수를 할당하면 발생
+
+문자열 Character String
+  - 하나 이상의 연속된 문자
+  
+유도 자료형 Derived Type
+  - 문자열의 자료형
+ 
+가독성 Read Ability
+
+상수 Constant 선언 장점
+  -선행처리 기능에 의해 실행 시 메모리 호출이 줄어든다
+  
+실행시간 치환 Execution Time Substitution
+
+선행처리기 Preprocessor
+
+컴파일시간 치환 Compile Time Substitution
+
+십진수 Decimal Number
+이진수 Binary Number
+16진수 Hexadecimal Number
+8진수 Octal Number
+
+연산자 Operator
+  - 연산 방법을 알리는 기호나 키워드
+  
+피연산자 Operand
+  - 연산의 대상 똫는 연산의 동작을 받는 변수나 값
+  
+수식 Expression
+
+문장 Statement
+
+대입연산자 Assignment Operator
+
+2의 보수 2's Complement
+  1의 보수에서 1을 더한 값
+0 10
+1 1    이진수 식 표현
+
+1의 보수 1's Complement
+
+0 1
+1 0   이진수 식 표현

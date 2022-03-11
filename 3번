@@ -1,0 +1,44 @@
+* 이진수(banary number)에서 2의 보수(2'c complement)를 구할 때(절대값)
+  1. sign bit를 제외한 숫자(이진수)의 0과 1을 뒤집는다
+    ex) 1010 -> 1101
+  2. 구해진 이진수가 1의 보수이므로 +1을 한다 (sign bit 제외)
+    ex) 1101 -> 1110 = 6
+    
+4Byte variable(변수)의 양수(positive number) 최대값 = 21억 4748만 3647
+                      음수(negative number) 최소값 = -21억 2448만 3648
+  *위의 최대값과 최소값을 넘으면 over, under flow가 발생한다
+  
+이항 연산자 Binary Operator
+  - 두 개의 피연산자를 이용하는 연산자
+
+단항 연산자 Unary Operator
+  - 하나의 피연산자를 취할 때
+
+Modulo Operator(%)
+  - 나눗셈 이후 나머지를 결과값으로 반환
+
+관계 연산자 Realational Operator (<, >=, >, <= 등)
+  - 데이터나 수식 간 대소 및 상등을 판별하는 연산자
+  
+순차적 Sequential
+
+제어문 Control Statement
+
+전위형 Prefix
+  - 사용 후 증가
+
+후위형 Postfix
+  - 증가 후 사용
+  
+* ++와 --(Increment and Decrement Operator)는 rvalue에서 발생해도 해당 variable을 변화시키기 때문에 주의
+  -> ++는 결국 val = val + 1, --는 val = val - 1 이기 때문
+
+올림변환 Promotion
+  - 낮은 순위 자료형이 높은 순위 자료형으로 변환
+ 
+ 내림변환 Demotion
+  - 높은 순위 자료형이 낮은 순위 자료형으로 변환
+  
+형변환 Cast
+
+조건 Expression

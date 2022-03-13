@@ -1,0 +1,37 @@
+Stack Frame / Activation Record
+  - 스택 영역에 생기는 서브함수 저장소
+  
+자동 할당 Automatic Allocation
+  Formal Parameter, Local Valiable 등이 해당
+  
+메모리 할당 Memory Allocation
+
+재귀 함수 Recursive Function
+  - 함수 정의(Function Definition) 내에서 자기자신 함수를 호출하는 함수
+  
+재귀 호출 Recursive Call
+
+경계 조건 Boundary Condition
+  - recursive function 이 끝나기 위한 조건
+  
+문법 오류 System Error
+
+작동 정지 / 엉터리 결과 Runtime Error
+
+전방 선언 Forward Declaration
+  - function 등을 제대로 정의하기 전에 complier에게 function의 존재를 미리 알리는 것
+
+성능 평가 Performance Evaluation
+  - Time Complexity 와 Space Complexity 를 평가
+  
+구현 Implementation
+  - 서비스 공급자
+  
+시간 복잡도 Time Complexity
+  O(1) < O(log(n)) < O(n) < O(n*log(n)) < O(n*n) < O(n^3) < O(2^n)
+  빠름 --------------------------------------------------->느림
+  
+분할 통치 Divide and Conquer
+
+참조 Reference
+중첩 Nested

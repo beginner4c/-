@@ -1,0 +1,36 @@
+실수형 변수 Float Variable
+
+반올림 에러 확산 Round Off Error
+Type Casting 시 정보 손실
+  - float, double 등 실수형 변수 사용 시 주의사항
+  
+데이터의 영향력 범위 / 영역 Scope
+  - 변수 이름이 영향을 미치는 프로그램 상의 볌위
+    - 전역변수 Global Variable(사용금지)
+    - 지역변수 Local Variable
+*C에서 굉장히 큰 배열을 만들어낼 때 유일하게 전역 변수를 사용할 수 있다
+  - Stack Frame 안에서 생성하면 runtime error가 발생하는 크기의 경우
+
+정적 변수 Static Variable
+  - 프로그램이 실행될 때 생겼다가 프로그램이 종료될 때 사라지는 변수
+
+부작용 Side Effect
+
+포인터 변수 Pointer Variable
+  - 파생형의 일종으로 변수의 주소를 저장하는 기억장소
+  목적
+    1. call by reference (참조에 의한 호출)
+    2. 배열 인덱스와 혼용
+    3. 동적 할당 Dynamic Allocation
+    4. 관계를 나타내는 정보처리(자료 구조 Data Structure)
+  *실제로 주로 사용하는 목적은 3번과 4번에 해당
+    
+  주의 사항
+    1. Null Point Exception 주소에 NULL 값이 들어가 있을 때
+    2. 허상 참조 Dangling Reference
+      - 풀어주지 않은 garbage data 등을 가르키는 것
+    3. garbage 발생
+    
+역참조 dereferencing
+  - 주소가 가르키는 곳의 값을 가져오는 것
+  - 변수의 주소를 전달해 실인자가 가르키는 변수의 값을 변경하는 호출 방식

@@ -1,0 +1,46 @@
+문자열 String
+
+char 배열을 사용할 때 끝에 '\0'을 넣어주어야 쓰레기값이 들어가고 끝이라고 인식한다
+
+문자열 상수는 마지막에 NULL이 있기에 1byte가 더 있다고 생각해야 한다
+  - 이것도 상수이므로 read only 기억장소에 저장되어 있다
+
+정적 기억 장소 Static Area
+  - 정적 변수 할당 영역 (Global Variable)
+  - read only 할당 영역 (Constant)
+
+char* 의 경우 상수처럼 read only 영역에 선언되어 주소를 받기 때문에 strcpy 같은 함수의 사용이 불가능하다
+  - 따라서 strcpy 함수는 char 배열이 좋고 크기가 넉넉해야 한다
+
+문자열 비교시 strcmp 함수 사용
+
+문자열을 이어붙일 때 strcat 함수 사용
+
+strdup 함수는 heap 영역에 필요한 만큼의 기억장소를 할당 후 복사한다
+  - dynamic allocation에 해당하므로 사용 후 free 함수로 garbage 관리 필요
+    - read only 영역에 상수처럼 선언하지 않아도 되는 장점이 있다
+    
+동적할당 Dynamic Allocation
+  - 프로그래머의 지시에 의해 발생하고 사라지는 기억장소를 할당하는 방식
+    - 변수명을 붙일 수 없기 때문에 포인터 사용이 필수적
+    
+Command Line Argument
+  - main 함수에 formal parameter를 넣어주는 것
+  ex : main(int argc, char* argv[])
+
+Double Pointer
+  - 2차원 배열을 동적할당할 때 사용하는 방법
+
+Integer Pointer Array
+
+typedef 명령어
+  - 비실행문(컴파일러에 정의해주는 거)
+  - read ability(가독성) 향상
+
+열거형 Enumeration Type
+  - read ability 향상
+  
+Union
+  - 기억장소 절약(요즘 잘 사용하지 않음)
+  - 하나의 기억장소에 두 개 이상의 자료형 사용 가능하게
+  - 구조체의 하위호환

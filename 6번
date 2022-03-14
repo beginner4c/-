@@ -1,0 +1,55 @@
+명세 Specification
+  - 헤더 파일, 서비스 요약
+  
+비실행문 Preprocessor Derectives
+  - #이 붙은 명령어들 (ex: #define)
+  
+*C에서 헤더 파일을 만들 때 지켜야 할 관습
+1. #ifndef
+2. #define
+3. #endif
+  -> 여러 번 include 되어도 문제가 없게 해준다
+  
+기계어 코드 Object File
+
+Library 구조 
+  - include 폴더
+  - lib 폴더
+  - bin 폴더
+  
+선택 지시자 - printf 함수에서 %와 변환 문자(서식 지정자 : formal specifier) 사이에서 서식제어를 해주는 것
+
+소숫점 이하 잘림 현상 Truncation
+  - 실수형 자료형을 정수형으로 출력할 때 발생
+  
+자료구조 Data Structure
+
+1. 배열 Array - 가장 기본적인 collection 객체
+              - index 사용이 특징(논리적 순서와 물리적 순서가 일치)
+        단점  - 크기 고정 : overflow 발생과 메모리 낭비 발생
+              - 삽입/삭제 : 속도 저하 발생
+              
+2. Array List(Growable Array)
+  - 배열의 크기 고정 문제를 해결하기 위해 고안한 collection 객체
+
+3. Singly Linked List (단방향 링크)
+  - 배열의 문제점을 해결하기 위해 고안한 collection 객체
+
+4. Doubly Linked List (양방향 링크)
+  - 양방향으로 traverse가 가능한 collection 객체
+* Linked List는 논리적 순서와 물리적 주소가 일치하지 않는다
+
+5. Stack
+  - LIFO(Last In First Out) 방식으로 운영되는 collection 객체
+
+6. Queue
+  - FIFO(First In First Out) 방식으로 운영되는 collection 객체
+  
+7. Hash Table(해시 테이블)
+  - sorting을 하지 않고 search를 빨리하기 위해 고안된 collection 객체
+  - 데이터가 적고 search를 자주 하지 않을 때 사용
+  
+Hash Function
+  - 어떤 값을 key값으로 바꾸어 줄 함수
+
+* Hash Table은 항상 key 값과 value(data)으로 이루어진다
